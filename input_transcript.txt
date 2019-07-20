@@ -1,0 +1,58 @@
+SPEAKER 1: Hey, everybody.
+Welcome to the ML & AI sandbox here at I/O 2019.
+So in the keynote, we saw some amazing stuff
+that you can accomplish with on-device ML.
+And I'm here with TensorFlow Lite,
+showing developers how they can build that same stuff
+themselves.
+So you've got everything from object detection
+to image classification and voice recognition.
+And we're showing people how they can deploy that
+down to devices that are really tiny
+and run for weeks on a single battery.
+So to really show you what's possible with TensorFlow Lite
+on-device, we built this amazing experience called Dance Like.
+SPEAKER 2: OK.
+Behind me is Dance Like.
+It's super fun application using TensorFlow Lite, which
+is TensorFlow's mobile and embedded systems framework
+for running machine learning.
+It basically teaches people how to dance.
+And so it does this by running pose segmentation on the GPU.
+We have a bunch of GPU-related ops
+that we just released for TensorFlow Lite,
+so you should check those out.
+It enables you to run super fast models.
+We're running two in real time and giving the user
+a heap of feedback, which helps them dance better.
+So to go and build really interesting applications
+on mobile phones, embedded systems,
+and executing this all on-device,
+you can go to TensorFlow.org/Lite.
+There's heaps of sample code.
+There's lots of documentation and tutorials.
+And you can go and build an amazing application like Dance
+Like and release it to the world.
+SPEAKER 3: What we're looking at here is a model called PoseNet.
+PoseNet is a model that's trained
+on images of human beings, and is trained
+to predict their skeletal pose.
+This model here is actually running entirely
+in the browser with a library called TensorFlow.js.
+TensorFlow.js is a machine learning library for JavaScript
+that can run entirely in the browser
+and use your GPU through WebGL.
+Now, TensorFlow.js also runs in Node.js using the entire
+TensorFlow C++ binary and all of its hardware acceleration
+storage behind it.
+Piano Genie is a model that runs in TensorFlow.js, entirely
+in the browser as well, that generates MIDI notes
+as part of a piano performance.
+Now, this model is interesting because it
+brings a human in the loop and lets
+the human condition where the model is actually going to go.
+TensorFlow.js is open source and is available online
+on TensorFlow.org/js, as are multiple more examples
+and demos of how to use it.
+Head over there today to start building machine learning
+for the browser.
